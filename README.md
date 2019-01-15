@@ -31,6 +31,7 @@ apt-get update && sudo apt-get install yarn
 yarn -v
  
 yarn 빌드
+------------
 cd tron-web
 yarn
 yarn build -d
