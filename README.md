@@ -3,20 +3,35 @@
 
 
 README
+
 일반 정보
+
 AUTHORS
+
 제작 정보
+
 THANKS	
+
 도와주신 분들에 대한 정보
+
 ChangeLog	
+
 프로그래머들이 참고 할 수 있는 자세한 체인지로그
+
 NEWS
+
 사용자들이 참고할 수 있는 기본적인 체인지로그
+
 INSTALL
+
 설치 안내
+
 COPYING/LICENSE
+
 저작권 및 사용권 정보
+
 BUGS
+
 알려진 버그 및 새로운 버그 보고 방법 안내
 
 
