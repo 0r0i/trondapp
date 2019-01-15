@@ -6,7 +6,7 @@ README
 ========
 TronWeb으로 Dapp 개발에 처음 입문 하시는분들의 도움을 주기 위해 위해서 코드를 배포
 
-ChangeLog	
+QUOTE	
 ========
 https://github.com/tronprotocol/tron-web 
 
