@@ -32,9 +32,13 @@ Tron-web 프로젝트 복사
 
 root@tkpark-VirtualBox:~# pwd
 /root
+
 mkdir project
+
 cd project
+
 git clone https://github.com/tronprotocol/tron-web
+
 cd tron-web/
 
   
