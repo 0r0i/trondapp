@@ -59,8 +59,11 @@ cd tron-web/
 Nodejs 설치
 -----------
 apt install curl
+
 curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
+
 node -v
+
 npm -v
  
 yarn 업데이트
@@ -76,56 +79,89 @@ yarn -v
 yarn 빌드
 ------------
 cd tron-web
+
 yarn
+
 yarn build -d
+
  
 express 기본틀 만들기
 --------------------------
 yarn global add express 
+
 yarn global add express-generator
+
  
 yarn 심볼릭 링크
 --------------------------
 cd ~
+
 mkdir bin
+
 cd bin
+
 ln -s /usr/share/yarn/bin/yarn
  
 Myapp 제작
 --------------------------
 cd ~
+
 cd project
+
 express --view=pug myapp
+
 cd myapp
+
 yarn install
+
 yarn add tronweb
+
 yarn start
 
 database 스키마
 --------------------------
 
 CREATE TABLE `transactionscan` (
+
   `idx` int(11) NOT NULL AUTO_INCREMENT,
+  
   `from_address` varchar(100) NOT NULL COMMENT '보내는 사람 주소',
+  
   `to_address` varchar(100) NOT NULL COMMENT '받는 사람  주소',
+  
   `amount` bigint(20) NOT NULL COMMENT '양',
+  
   `txid` varchar(150) NOT NULL COMMENT '트랜젝션 id',
+  
   `regdate` datetime default current_timestamp,
+  
   PRIMARY KEY (`idx`)
+  
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='트랜젝션 조회 테이블';
 
 
 MariaDB [tkpark]> desc transactionscan;
+
 +--------------+--------------+------+-----+-------------------+----------------+
+
 | Field        | Type         | Null | Key | Default           | Extra          |
+
 +--------------+--------------+------+-----+-------------------+----------------+
+
 | idx          | int(11)      | NO   | PRI | NULL              | auto_increment |
+
 | from_address | varchar(100) | NO   |     | NULL              |                |
+
 | to_address   | varchar(100) | NO   |     | NULL              |                |
+
 | amount       | bigint(20)   | NO   |     | NULL              |                |
+
 | txid         | varchar(150) | NO   |     | NULL              |                |
+
 | regdate      | datetime     | YES  |     | CURRENT_TIMESTAMP |                |
+
 +--------------+--------------+------+-----+-------------------+----------------+
+
 
 
 
