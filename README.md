@@ -118,6 +118,8 @@ yarn add tronweb
 
 yarn start
 
+
+
 database 스키마
 --------------------------
 
@@ -138,6 +140,8 @@ CREATE TABLE `transactionscan` (
   PRIMARY KEY (`idx`)
   
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='트랜젝션 조회 테이블';
+
+
 
 
 MariaDB [tkpark]> desc transactionscan;
