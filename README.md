@@ -1,7 +1,7 @@
 # Tron API Server(express)
 
 Tron-web 프로젝트 복사
-=====================
+---------------------
 출처 : https://github.com/tronprotocol/tron-web 
 
 
@@ -14,13 +14,14 @@ cd tron-web/
 
   
 Nodejs 설치
-===========
+-----------
 apt install curl
 curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
 node -v
 npm -v
  
 yarn 업데이트
+------------
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
