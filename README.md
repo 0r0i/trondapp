@@ -3,48 +3,27 @@
 
 
 README
-
-일반 정보
-
-AUTHORS
-
-제작 정보
-
-THANKS	
-
-도와주신 분들에 대한 정보
+========
+TronWeb으로 Dapp 개발에 처음 입문 하시는분들의 도움을 주기 위해 위해서 코드를 배포
 
 ChangeLog	
+========
+https://github.com/tronprotocol/tron-web 
 
-프로그래머들이 참고 할 수 있는 자세한 체인지로그
+https://developers.tron.network/v3.0/reference#tronwebapi
 
-NEWS
+https://shasta.tronscan.org/#/
 
-사용자들이 참고할 수 있는 기본적인 체인지로그
+
 
 INSTALL
-
+========
 설치 안내
-
-COPYING/LICENSE
-
-저작권 및 사용권 정보
-
-BUGS
-
-알려진 버그 및 새로운 버그 보고 방법 안내
-
-
-
-
-
 
 Tron-web 프로젝트 복사
 ---------------------
-출처 : https://github.com/tronprotocol/tron-web 
-
-
 root@tkpark-VirtualBox:~# pwd
+
 /root
 
 mkdir project
@@ -167,6 +146,13 @@ MariaDB [tkpark]> desc transactionscan;
 +--------------+--------------+------+-----+-------------------+----------------+
 
 
+
+COPYING/LICENSE
+========
+LGPL
+
+BUGS
+========
 
 
 
