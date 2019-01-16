@@ -203,7 +203,7 @@ http://192.168.0.118:3000/createAccount/
 
 http://192.168.0.118:3000/getBalance/지갑주소
 
-http://192.168.0.118:3000/getBalance/지갑주소
+
 
 
 송금
