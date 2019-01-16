@@ -4,7 +4,9 @@
 
 README
 ========
-TronWeb으로 Dapp 개발에 처음 입문 하시는분들의 도움을 주기 위해 위해서 코드를 배포
+TronWeb API <-> nodejs <-> Contents 중계 역할을 하는 소스
+
+nodejs + express로 구현되어 있음
 
 test Demo 코드로 제작한것이고 실 운영시에는 꼭 https와 POST방식으로 운영하길 바람
 
