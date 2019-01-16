@@ -200,7 +200,7 @@ http://192.168.0.118:3000/transactionview/지갑주소
 http://192.168.0.118:3000/transactionview/지갑주소
 
 
-트랜젝션 조회는 현재 TronAPI함수가 업데이트 중이라 동작을 하지 않아
+트랜젝션 조회는 현재 TronWeb API함수가 업데이트로 인해 동작을 하지 않아
 
 송금한 txid를 DB에 넣고 조회하는 형식으로 구현
 
