@@ -161,7 +161,38 @@ MariaDB [tkpark]> desc transactionscan;
 
 +--------------+--------------+------+-----+-------------------+----------------+
 
+실행방법
+--------------------------
+root@tkpark-VirtualBox:~/project/myapp/routes# pwd
+/root/project/myapp/routes
 
+index.js를 github소스로 변경 후 
+
+root@tkpark-VirtualBox:~/project/myapp/routes# yarn start
+yarn run v1.12.3
+$ node ./bin/www
+
+Crome 브라우저 실행
+
+계좌신청 
+http://192.168.0.118:3000/createAccount/
+
+잔액조회 지갑주소 
+http://192.168.0.118:3000/getBalance/지갑주소
+http://192.168.0.118:3000/getBalance/지갑주소
+
+
+송금
+http://192.168.0.118:3000/sendToken?PK=개인키&value=1000000&toAddress=지갑주소
+PK, value, toAddress
+
+
+트렌젝선 조회
+http://192.168.0.118:3000/transactionview/지갑주소
+http://192.168.0.118:3000/transactionview/지갑주소
+
+트랜젝션 조회는 현재 TronAPI함수가 업데이트 중이라 동작을 하지 않아
+송금한 txid를 DB에 넣고 조회하는 형식으로 구현
 
 
 
