@@ -18,7 +18,12 @@ https://shasta.tronscan.org/#/
 
 INSTALL
 ========
-설치 안내
+개발환경 
+OS : Ubuntu 18.04(ubuntu-18.04.1-desktop-amd64.
+MariaDB : ubuntu0.18.04.1 
+
+
+
 
 Tron-web 프로젝트 복사
 ---------------------
@@ -149,7 +154,7 @@ MariaDB [tkpark]> desc transactionscan;
 
 COPYING/LICENSE
 ========
-LGPL
+GNU Lesser General Public License, version 3 (SPDX short identifier: LGPL-3.0)
 
 BUGS
 ========
