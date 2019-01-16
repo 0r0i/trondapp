@@ -32,7 +32,7 @@ INSTALL
 
 OS : Ubuntu 18.04(ubuntu-18.04.1-desktop-amd64.iso)
 
-MariaDB : ubuntu0.18.04.1 
+MariaDB : mariadb  Ver 15.1 Distrib 10.1.34-MariaDB, for debian-linux-gnu (x86_64) using r eadline 5.2
 
 VM : VirtualBox-5.1.38-122592-Win.exe
 
