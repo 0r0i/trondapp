@@ -197,6 +197,8 @@ PK, value, toAddress
 
 http://192.168.0.118:3000/transactionview/지갑주소
 
+조회된 트랜 젝션은 tronscan으로 조회 가능
+
 
 
 트랜젝션 조회는 현재 TronWeb API함수가 업데이트로 인해 동작을 하지 않아
