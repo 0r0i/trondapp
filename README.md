@@ -114,11 +114,14 @@ yarn install
 
 yarn add tronweb
 
+yarn add mysql
+
 yarn start
 
 
 MariaDB 
 --------------------------
+
 apt-get install mariadb-server
 
 apt-get install mariadb-server-core
