@@ -21,7 +21,7 @@ INSTALL
 개발환경 
 OS : Ubuntu 18.04(ubuntu-18.04.1-desktop-amd64.
 MariaDB : ubuntu0.18.04.1 
-
+VM : VirtualBox-5.1.38-122592-Win.exe
 
 
 
