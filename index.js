@@ -56,7 +56,7 @@ router.get('/getBalance/:Address',function(req,res,next) {
 });
 
 
-router.get('/getBalance/:Address',function(req,res,next) {
+router.get('/transactionview/:Address',function(req,res,next) {
                 try{
                         var Address = req.params.Address;
                         var select_sql = "select *, \"send\" from transactionscan where from_address=? union all select *, \"receive\" from transactionscan where to_address=? order by idx desc;";
