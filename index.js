@@ -1,12 +1,13 @@
 var express = require('express');
 var router = express.Router();
 const TronWeb = require('tronweb');
+var mysql = require('mysql');
+
 const fullNode = 'https://api.shasta.trongrid.io';
 const solidityNode = 'https://api.shasta.trongrid.io';
 const eventServer = 'https://api.shasta.trongrid.io/';
 var privateKey = '123';
 
-var mysql = require('mysql');
 var connection = mysql.createConnection({
         host: 'localhost',
         post: 3306,
