@@ -165,13 +165,17 @@ MariaDB [tkpark]> desc transactionscan;
 실행방법
 --------------------------
 root@tkpark-VirtualBox:~/project/myapp/routes# pwd
+
 /root/project/myapp/routes
 
 index.js를 github소스로 변경 후 
 
 root@tkpark-VirtualBox:~/project/myapp/routes# yarn start
+
 yarn run v1.12.3
+
 $ node ./bin/www
+
 
 Crome 브라우저 실행
 
