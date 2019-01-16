@@ -188,7 +188,7 @@ http://192.168.0.118:3000/getBalance/지갑주소
 
 송금
 
-http://192.168.0.118:3000/sendToken?PK=개인키&value=1000000&toAddress=지갑주소
+http://192.168.0.118:3000/sendToken?PK=개인키&value=수량&toAddress=지갑주소
 
 PK, value, toAddress
 
@@ -197,7 +197,6 @@ PK, value, toAddress
 
 http://192.168.0.118:3000/transactionview/지갑주소
 
-http://192.168.0.118:3000/transactionview/지갑주소
 
 
 트랜젝션 조회는 현재 TronWeb API함수가 업데이트로 인해 동작을 하지 않아
