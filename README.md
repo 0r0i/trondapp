@@ -117,6 +117,16 @@ yarn add tronweb
 yarn start
 
 
+MariaDB 
+--------------------------
+apt-get install mariadb-server
+
+apt-get install mariadb-server-core
+
+apt-get install mariadb-client
+
+
+
 
 database 스키마
 --------------------------
